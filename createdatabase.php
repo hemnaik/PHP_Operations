@@ -3,7 +3,7 @@
 <head>
 <body>
 <?php
-    $query="CREATE DATABASE database_student";
+    $query="CREATE DATABASE database_customer";
     $con=mysqli_connect("localhost","root","");
     if($con)
     {
