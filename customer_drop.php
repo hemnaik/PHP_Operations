@@ -7,8 +7,8 @@
 	 
 	 if($con)
 	 {
-	     $create_table="DROP table customer_new";
-		 $result=mysqli_query($con,$create_table);
+	     $drop_table="DROP table customer_new";
+		 $result=mysqli_query($con,$drop_table);
 		 if($result==true)
 		 {
 		      echo "TABLE DROPPED"."</br>";
