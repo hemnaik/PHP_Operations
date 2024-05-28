@@ -12,7 +12,7 @@
      {
            echo "<br/>"."DATABASE CONNECTED SUCCESSFULLY";
        
-           $createtable="CREATE TABLE customer_info(cid int(5) PRIMARY KEY, cname varchar(20) NOT NULL, city varchar(20) NOT NULL, mobile bigint(10))";
+           $createtable="CREATE TABLE customer_new(cid int(5) PRIMARY KEY, cname varchar(20) NOT NULL, city varchar(20) NOT NULL, mobile bigint(10))";
                  
           
            $result=mysqli_query($connection,$createtable);
