@@ -3,7 +3,7 @@
 <head>
 <body>
 <?php
-    $query="CREATE DATABASE database_customer";
+    $query="CREATE DATABASE customer";
     $con=mysqli_connect("localhost","root","");
     if($con)
     {
