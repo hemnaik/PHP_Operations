@@ -7,8 +7,8 @@
 	 {
                 echo "CONNECTION ESTABLISHED"."</br>";
 
-	         $delete_table="DELETE FROM customer_new WHERE cid=101";  //Delete specific records of customer_new table//
-		 $result=mysqli_query($con,$delete_table);
+	         $delete_record="DELETE FROM customer_new WHERE cid=101";  //Delete specific records of customer_new table//
+		 $result=mysqli_query($con,$delete_record);
 		 if($result==true)
 		 {
 		      echo "RECORD DELETED"."</br>";
