@@ -7,8 +7,8 @@
 	 {
                 echo "CONNECTION ESTABLISHED"."</br>";
 
-	         $delete_table="RENAME TABLE customer_new TO customer_table";
-		 $result=mysqli_query($con,$delete_table);
+	         $rename_table="RENAME TABLE customer_new TO customer_table";
+		 $result=mysqli_query($con,$rename_table);
 		 if($result==true)
 		 {
 		      echo "TABLE RENAMED"."</br>";
