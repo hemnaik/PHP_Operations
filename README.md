@@ -1,4 +1,4 @@
-# Basic Database operations using PHP scripting 
+# Basic Database operations using PHP scripting  
 - These are the operations of PHP and Mysql (PHPMyAdmin) and other operations of Php dealings.
 - Some operations are
 - To DROP database
